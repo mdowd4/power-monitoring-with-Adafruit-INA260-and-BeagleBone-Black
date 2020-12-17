@@ -1,4 +1,10 @@
 # Power Monitoring With Adafruit INA260 and BeagleBone Black
+<p align="center">
+<img src="/images/BBB.JPG" height=300> 
+</p>
+<p align="center">
+<img src="/images/data.PNG" height=150> 
+</p>
 
 ## Description
 This is a python script for a BeagleBone Black (BBB) to periodically read power sensor data and store it for the duration of an experiment. The BBB fills lists with the data every other second and then takes the average after one minute. The average for the minute is written to a CSV file and the process repeats for the specified number of minutes of the test.
